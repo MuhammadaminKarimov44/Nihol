@@ -1,0 +1,66 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    font-family: monospace;
+}
+
+img {
+    border-radius: 20%;
+    border: 3px solid blue;
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+}
+
+.video {
+    margin-top: 50px;
+}
+
+button {
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: forestgreen;
+    font-size: 25px;
+}
+
+
+/* media start */
+/* col-xl */
+@media(min-width: 1200px) {}
+
+/* col-lg */
+@media(min-width: 992px) and (max-width:1199px) {}
+
+/* col-md */
+@media(min-width: 768px) and (max-width:991px) {}
+
+/* col-sm */
+@media(min-width: 576px) and (max-width:767px) {}
+
+/* col */
+@media(max-width: 575px) {
+button {
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease;
+}
+}
